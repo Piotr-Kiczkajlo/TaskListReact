@@ -1,0 +1,7 @@
+.container {
+    margin: 0 auto;
+    min-width: 190px;
+    max-width: 900px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}

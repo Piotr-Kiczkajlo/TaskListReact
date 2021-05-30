@@ -1,0 +1,33 @@
+.manageTasksButton {
+    border: none;
+    color: teal;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.manageTasksButton:hover {
+    color: rgb(4, 173, 173);
+}
+
+.manageTasksButton:disabled {
+    color: rgb(176, 180, 180);
+}
+.section__listButtons {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 5px;
+    background-color: white;
+}
+
+@media(max-width:600px) {
+    .section__listButtons {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding-top: 10px;
+        align-items: center;
+    }
+}
