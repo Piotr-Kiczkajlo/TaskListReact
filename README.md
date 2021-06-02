@@ -2,7 +2,7 @@
 
 ## **Demo**
 
-[Task List - preview](https://piotr-kiczkajlo.github.io/task-list/)
+[Task List - preview](https://piotr-kiczkajlo.github.io/TaskListReact/)
 
 ![screen](public/ogTaskList.png)
 
