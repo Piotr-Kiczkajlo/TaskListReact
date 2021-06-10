@@ -15,7 +15,7 @@
 .manageTasksButton:disabled {
     color: rgb(176, 180, 180);
 }
-.section__listButtons {
+.listButtons {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
@@ -24,7 +24,7 @@
 }
 
 @media(max-width:600px) {
-    .section__listButtons {
+    .listButtons {
         grid-template-columns: 1fr;
         grid-gap: 10px;
         padding-top: 10px;
