@@ -14,6 +14,9 @@
     padding: 7px;
     border: 1px solid rgb(236, 236, 236);
     min-width: 160px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .form__submitButton {
@@ -22,8 +25,9 @@
     border-style: none;
     padding: 7px;
     transition: .5s;
-    font-size: 12px;
-}
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+   }
 
 @media(max-width:600px) {
     .form__submitButton {

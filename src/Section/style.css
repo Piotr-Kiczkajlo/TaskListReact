@@ -1,6 +1,9 @@
 .section {
     margin: 10px 0px;
     background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .section__header {

@@ -2,7 +2,8 @@
     border: none;
     color: teal;
     background-color: white;
-    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
     font-weight: bold;
     padding: 0;
     transition: 0.5s;
