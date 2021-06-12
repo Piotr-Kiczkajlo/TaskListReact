@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const ListButtons = ({ tasks, hideDone, toggleHideDone }) => (
+const ListButtons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
   <div className="listButtons">
     {tasks.length > 0 && (
       <React.Fragment>
@@ -10,7 +10,7 @@ const ListButtons = ({ tasks, hideDone, toggleHideDone }) => (
             ? "Pokaż ukończone"
             : "Ukryj ukończone"}
         </button>
-        <button
+        <button onClick={setAllDone}
           className="manageTasksButton"
           disabled={tasks.every(({ done }) => done)}
         >
