@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-const ListButtons = ({ tasks, hideDone }) => (
+const ListButtons = ({ tasks, hideDone, toggleHideDone }) => (
   <div className="listButtons">
     {tasks.length > 0 && (
       <React.Fragment>
-        <button className="manageTasksButton">
+        <button onClick={toggleHideDone} className="manageTasksButton">
           {tasks.some(({ done }) => done) && hideDone
             ? "Pokaż ukończone"
             : "Ukryj ukończone"}
